@@ -1,9 +1,5 @@
 var c = 0;
 var x = setInterval(function () {
-    var html = [
-        '<span class="field-tip">',
-        '</span>'
-    ].join('');
     if (document.getElementById("checkout-shipping-options")) {
         if (c < 1) {
             var div = document.createElement("div");
