@@ -23,4 +23,4 @@ var x = setInterval(function () {
         }
     }
 
-}, 5000);
+}, 5000)
